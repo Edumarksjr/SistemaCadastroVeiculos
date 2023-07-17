@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Cadastrar Veículos";
+}
+<div class="text-center">
+
+    <h1 class="display-4">Cadastrar Veículo</h1>
+
+</div>
+
+<form>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Placa mercosul?</label>
+    </div>
+    <div class="form-group">
+        <label for="Placa">Placa</label>
+        <input type="text" class="form-control" placeholder="Digite a placa do Veículo">
+    </div>
+    <div class="form-group">
+        <label for="Renavam">Renavam</label>
+        <input type="text" class="form-control" placeholder="Digite o Renavam do Veículo">
+    </div>
+    <div class="form-group">
+        <label for="Nome">Nome do Proprietário</label>
+        <input type="text" class="form-control" placeholder="Digite o nome do Proprietário do Veículo">
+    </div>
+    <div class="form-group">
+        <label for="CPF">CPF</label>
+        <input type="text" class="form-control" placeholder="Digite o CPF do Proprietário do Veículo">
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Bloqueado?</label>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Atualizar</button>
+    <a class="btn btn-secondary btn-block" asp-controller="Veiculo" asp-action="Index" role="button">Voltar</a>
+</form>
+
+</div>
